@@ -1,0 +1,26 @@
+{
+  "name": "taailsscript",
+  "displayName": "TaAilsScript",
+  "description": "Adds syntax highlighting for TaAilsScript files.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "taailsscript",
+      "aliases": ["TaailsScript", "taailsscript"],
+      "extensions": [".taails"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "taailsscript",
+      "scopeName": "source.taailsscript",
+      "path": "./syntaxes/taailsScript.tmLanguage.json"
+    }]
+  }
+}

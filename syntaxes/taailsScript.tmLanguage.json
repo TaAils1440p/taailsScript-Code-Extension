@@ -1,0 +1,35 @@
+{
+  "scopeName": "source.taailsscript",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#strings" },
+    { "include": "#keywords" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.taailsscript",
+          "match": "#.*$"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double.taailsscript",
+          "begin": "\"",
+          "end": "\""
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.taailsscript",
+          "match": "\\b(VAR|AND|OR|NOT|IF|ELIF|ELSE|FOR|TO|STEP|WHILE|FUN|THEN|END|RETURN|CONTINUE|BREAK)\\b"
+        }
+      ]
+    }
+  }
+}
