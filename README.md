@@ -6,3 +6,6 @@ The code language and interpreter source code is available [here](https://github
 
 ## License
 The **taailsScript Support** extension released under the MIT License. See the [LICENSE](./LICENSE) for more details.
+
+### Info
+The extension is for now not available on the VS Code Marketplace
